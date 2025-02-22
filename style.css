@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url(img/transferir.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding-top: 80px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000 ; 
+}
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+main {
+    margin-top: 20%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    background: #0056b3;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #003f80;
+}
+
+#resultado {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
